@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+SC:wght@100..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+HR+Lijeva:wght@100..400&family=Playwrite+HR:wght@100..400&display=swap');
+
+/* Home Page */
+
+h1 {
+  text-align: center;
+  padding-top: 4rem;
+  font-family: 'Lato', sans-serif;
+  color: #36454F;
+}
+h2{
+  text-align: center;
+  padding-top: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  color: #36454F;
+}
+h5{
+   text-align: center;
+  padding-top: 1rem;
+  font-family: 'Lato', sans-serif;
+  color: #36454F;
+}
+
+.container-img {
+  text-align: center;
+  margin-top: 4rem;
+  
+}
+
+img {
+  border-radius: 50%;
+  height: 300px;
+}
+
+/* Dasboard */
+
+.dashboard-container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1200px; /* Adjust as needed */
+}
+
+.dashboard-container table {
+  width: 100%;
+}
+
+
+/* AddUser.css */
+.container-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+  margin-top: 20px; /* Add space between form and button */
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 0.5rem;
+  }
+  
+  .dashboard-container table {
+    font-size: 0.875rem; /* Adjust table font size on smaller screens */
+  }
+}
